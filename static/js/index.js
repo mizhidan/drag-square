@@ -26,8 +26,6 @@ window.onload = function() {
                 && oDrag.offsetTop - oFixed.offsetTop <= 80 
                 && oDrag.offsetTop - oFixed.offsetTop >= -80) {
                 oFixed.style.backgroundColor = "blue";
-            } else {
-                oFixed.style.backgroundColor = "yellow";
             }
         };
 
