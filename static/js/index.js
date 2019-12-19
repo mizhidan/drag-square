@@ -25,13 +25,11 @@ window.onload = function() {
                 && oDrag.offsetLeft - oFixed.offsetLeft >= -80
                 && oDrag.offsetTop - oFixed.offsetTop <= 80 
                 && oDrag.offsetTop - oFixed.offsetTop >= -80) {
-                oFixed.style.backgroundColor = "#1c43f0";
+                oFixed.style.backgroundColor = "blue";
             } else {
-                oFixed.style.backgroundColor = "#f0f146";
+                oFixed.style.backgroundColor = "yellow";
             }
         };
-
-
 
         document.onmouseup = function() {
             document.onmousemove = null;
